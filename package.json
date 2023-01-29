@@ -1,0 +1,25 @@
+{
+  "name": "mihi-colors",
+  "version": "1.0.0",
+  "description": "Color palettes and color tools of MiHi",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "mihi",
+    "color",
+    "palette"
+  ],
+  "author": "MiHi",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
+}

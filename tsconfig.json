@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "es2016",
+
+    /* Modules */
+    "module": "commonjs",
+
+    /* Emit */
+    "declaration": true,
+    "outDir": "./dist",
+
+    /* Type Checking */
+    "strict": true,
+    "noImplicitAny": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
