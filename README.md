@@ -12,12 +12,12 @@ $ npm install mihi-colors
 
 ## Usage
 
-### presetPalette
+### presetPalettes
 
 ```javascript
-import { presetPalette } from "mihi-colors";
+import { presetPalettes } from "mihi-colors";
 
-console.log(presetPalette);
+console.log(presetPalettes);
 /*
 {
   red: [...],
@@ -32,7 +32,6 @@ console.log(presetPalette);
   indigo: [...],
   purple: [...]
   magenta: [...],
-  gray: [...],
 }
 */
 ```
@@ -45,21 +44,21 @@ import { generatePalette } from "mihi-colors";
 console.log(generatePalette("#00D778"));
 /*
 [
-  '#E5FBF1', '#CCF7E4',
-  '#99EFC9', '#66E7AE',
-  '#32DF93', '#00D778',
-  '#00AC60', '#008148',
-  '#005630', '#002B18'
+  '#B3FFD0', '#8FFFBE',
+  '#6BFFAF', '#46FB9F',
+  '#21E98A', '#00D778',
+  '#00A964', '#007B4D',
+  '#004D33', '#001F16'
 ]
 */
 ```
 
-### mixColor
+### mix2Rgb
 
 ```javascript
-import { mixColor } from "mihi-colors";
+import { mix2Rgb } from "mihi-colors";
 
-console.log(mixColor("#00D778", "#123DEF", 0.4));
+console.log(mix2Rgb("#00D778", "#123DEF", 0.4));
 // 0.4 => #00D778 * 40% + #123DEF * 60%
 /*
 '#0A7ABF'
